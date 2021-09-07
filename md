@@ -3,25 +3,25 @@ public class BiggestNumber
 {
     public static void main(String[] args) 
     {
-        int a, b, c;
+        int x, y, z;
         Scanner s = new Scanner(System.in);
         System.out.print("Enter the first number:");
-        a = s.nextInt();
+        x = s.nextInt();
         System.out.print("Enter the second number:");
-        b = s.nextInt();
+        y = s.nextInt();
         System.out.print("Enter the third number:");
-        c = s.nextInt();
-        if(a > b && a > c)
+        z = s.nextInt();
+        if(x > y && x > z)
         {
-            System.out.println("Largest number is:"+a);
+            System.out.println("Largest number is:"+x);
         }
-        else if(b > a && b>c)        {
+        else if(y > x && y>z)        {
 
-            System.out.println("Largest number is:"+b);
+            System.out.println("Largest number is:"+y);
         }
         else
         {
-            System.out.println("Largest number is:"+c);
+            System.out.println("Largest number is:"+z);
         }
  
     }
